@@ -16,7 +16,7 @@ tNode* Plus(tNode* str, int a);
 
 ///////////////////////////////////////////////////////////////////////////////
 
-int main() {
+int main(void) {
     tNode* p = NULL;
    printf("1-add 2-delete 3-display 4-exit\n");
     int qwe;
