@@ -25,7 +25,7 @@ int main(void){
 		//вводим матрицу
 		int** A = (int**)malloc(N * sizeof(int*));
 		for (int i = 0; i < N; i++) 
-			A[i] = (int*)malloc(800 * sizeof(int));
+			A[i] = (int*)malloc(N * sizeof(int));
 
 		for (i = 0; i < N; i++)
 			for (j = 0; j < N; j++) 
